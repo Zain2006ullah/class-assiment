@@ -1,0 +1,84 @@
+body {
+    width: 100%;
+    height: auto;
+    background-image: url(./img.jpeg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 15PX;
+    font-weight: bold;
+    line-height: 20px;
+    color: lightyellow;
+
+}
+.header {
+    margin: 0;
+
+}
+.header span {
+    font-family: 'roboto', Arial,  sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav ul {
+    font-family: 'roboto', Arial,  sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.nav li {
+    margin-right: 20px;
+
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+
+}
+.nav a :hover {
+    color: #ccc;
+}
+.body-section {
+    padding: 40px;
+    text-align: center;
+
+
+}
+.body-section h1 {
+    font-size: 36px ;
+    font-weight : bold ;
+    color: lightyellow ;
+    margin-bottom:20px ;
+
+}
+.body-section p {
+    font-size: 18px;
+    color: lightyellow;
+    margin-bottom: 30px;
+
+}
+.body-section button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.body-section button:hover {
+    background-color: #717c42;
+}
